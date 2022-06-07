@@ -197,7 +197,7 @@ background-color: rgb(248, 244, 244);
     background-image: url("img/8neptune.png");
     top: 0px;
     right: -670px;
-    animation: venus 24s linear infinite;
+    animation: neptune 24s linear infinite;
     transform-origin: -670px center;
     animation-play-state: running;
 }
@@ -210,3 +210,25 @@ background-color: rgb(248, 244, 244);
     }
     
 }
+.abc{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-image: url("img/sa.png");
+    top: 0px;
+    right: -740px;
+    animation: neptune1 24s linear infinite;
+    transform-origin: -740px center;
+    animation-play-state: running;
+}
+@keyframes neptune1{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(359deg);
+    }
+    
+}
+
